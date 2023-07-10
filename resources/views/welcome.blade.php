@@ -134,6 +134,9 @@
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
                 </div>
+                <a href="{{ route('login') }}" class="h-10 w-auto px-2 text-sm text-white bg-vvn-orange flex justify-center items-center cursor-pointer rounded">
+                    Inloggen
+                </a>
             </div>
         </div>
     </body>
